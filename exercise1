@@ -20,9 +20,9 @@ function draw() {
     color: "green"
   },
     {
-    name: "Kathy Jiang",
-    food: "Sushi",
-    color: "green"
+    name: "Orange",
+    food: "Orange",
+    color: "orange"
   },
 ]
 
