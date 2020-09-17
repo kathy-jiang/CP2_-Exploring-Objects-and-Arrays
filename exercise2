@@ -8,7 +8,7 @@ function draw() {
     name: "J.D. Zamfirescu",
     food: "宫保鸡丁",
     color: "blue",
-    textSize: (5) 
+    textSize: (8) 
   },
   {
     name: "Adam Smith",
@@ -23,9 +23,9 @@ function draw() {
    textSize: (15) 
   },
     {
-    name: "Kathy Jiang",
-    food: "Sushi",
-    color: "green",
+    name: "Orange",
+    food: "orange",
+    color: "orange",
     textSize: (20) 
   },
 ]
@@ -34,8 +34,8 @@ textAlign(CENTER);
 
 for (var i = 0; i < people.length; i += 1) {
   fill(0);
-  // textSize(20);
-  // text("❤️", width/2, height/2-10);
+  textSize(20);
+  text("❤️", width/2, height/2+20);
   textSize(20);
   
   text(people[i].name, width/2, height/2-i*40);
